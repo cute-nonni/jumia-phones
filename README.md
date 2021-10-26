@@ -1,3 +1,4 @@
+# Backend APIs
 
 # GET All Countries
 	http://localhost:8080/api/countries
@@ -13,3 +14,11 @@
 
 # GET By Country
 	http://localhost:8080/api/phones?country=Uganda
+
+# Run as Docker
+
+To run the application use the below command
+
+docker-compose up
+
+then navigate to http://localhost:9090/	
